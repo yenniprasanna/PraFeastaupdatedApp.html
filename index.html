@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      
+
+        <!-- fontawesome cdn For Icons -->
+     <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEys
+      h0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous" />
+      <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+.bg-light-gray{
+    background-color: rgb(241, 240, 240);
+
+}
+.section_title h1{
+    text-decoration: underline;
+}
+/* for cart logo hover effect */
+.cart a{
+    text-decoration: none;
+    list-style: none;
+}
+.cart a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+.bg_cart_1{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.product_img{
+    position: relative;
+
+}
+.product_img .new_product{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+}
+.contact_form{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.feature{
+    background: rgb(0,121,230);
+    background: linear-gradient(0deg, rgba(0,121,230,1) 0%, rgba(0,250,255,1) 90%);
+
+}
+.feature.p{
+    text-align :black;
+}
+.footer_section{
+    border-top: 3px solid #007BFF;
+    border-radius: 10px;
+}
+      </style>
+      <title>E-commerce</title>
+    </head>
+
+    <body id="top">  
+    <!-- ==============header menu section starts here============== -->
+   <section class="header_menu" id="header_menu">
+    <div class="container-fluid px-0 shadow">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 ">
+       <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+        <img src="https://dynamic.design.com/asset/logo/efad2d11-d7d9-4fb1-bd91-528fe52b4172/logo-search-grid-1x?logoTemplateVersion=1&v=638464107922200000&text=Feasta&layout=landscapeclass="img img-fluid" width="120px" width="150px" class="img img-fluid" width="120px"
+         alt="logo">
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse"
+       data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="login.html">login <span class="sr-only">(current)</span></a>
+           </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="product.html">Product <span class="sr-only">(current)</span></a>
+        </li>
+       <li class="nav-item">
+        <a class="nav-link" href="category.html">Category <span class="sr-only">(current)</span></a>
+        </li>
+       <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="timeslotindex.html">Time slot<span class="sr-only">(current)</span></a>
+      </li>
+<!-- <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"role="button" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false">
+Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="#">Action</a>
+<a class="dropdown-item" href="#">Another action</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li> -->
+  </ul>
+    <div class="search mr-3">
+      <a href="search.html" class="btn btn-sm btn-outline-primary">
+    Search
+   </a>
+  </div>
+     <div class="cart">
+    <a href="cart2.html">
+       <i class="fas fa-shopping-cart fa-2x"></i>
+        <span class="badge badge-pill badge-primary">24</span>
+        </a>
+      </div>
+     </div>
+    </nav>
+   </div>
+</section>
+<!-- ==============header menu section ends here============== -->
+  
+   
+<!-- ==============order by category starts here============== -->
+ 
+ 
+  
+
+
+
+
+<section class="shop_by_category py-5 my-5" id="shop_by_category">
+    <div class="container-fluid">
+    <div class="section_title text-center mb-5">
+    <h1 class="text-capitalize">Order By category</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-12">
+        <div class="card bg-dark text-white">
+        <a href="category.html">
+        <img class="card-img img img-fluid" src="https://cdn.tarladalal.com/category/South-Indian-Recipes.jpg" width ="300px" height="200px"
+        alt="South Indian Food">
+        
+        </a>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 mt-small-5 mb-small-5">
+        <div class="card bg-dark text-white">
+        <a href="category2.html">
+        <img class="card-img img img-fluid" src="https://i.pinimg.com/736x/6b/43/3d/6b433dd94cc59db70579a5f431ab2c1c.jpg"width="300px" height="200px" alt="North indian food"> 
+                
+                
+
+        </a>
+        </div>
+        </div>
+        <div class="col-md-4 col-12">
+        <div class="card bg-dark text-white">
+        <a href="category3.html">
+        <img class="card-img img img-fluid" src="https://vegecravings.com/wp-content/uploads/2018/03/Indo-Chinese-Recipes-Collection.jpg"width="300px" height="200px" alt="chinese food image"></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <!-- ==============order by category ends here============== -->
+         <!-- ==============products starts here============== -->
+<section class="products py-5 my-5 bg-light" id="products">
+    <div class="container ">
+    <div class="section_title text-center mb-5">
+    <h1 class="text-capitalize"> Food-items </h1>
+    </div>
+    <div class="row mb-5">
+    <div class="col-md-4 col-12">
+    <div class="single_product shadow text-center p-1">
+    <div class="product_img">
+        <a href="product_detail.html"><img src="https://t4.ftcdn.net/jpg/04/81/32/57/240_F_481325737_gZnjx0nzgxLrirgRUI3GpII7zvZdcSYu.jpg"
+            class="img img-fluid" alt=" Idli-vada image"></a>
+            <div class="new_product">
+            <span class="badge py-2 px-3 badge-pill badge-danger"></span>
+            </div>
+            </div>
+            <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star low-star"></i>
+                <i class="far fa-star low-star"></i>
+            </div>
+            <h4><a href="product_detail.html">Idli-vada chutney </a></h4>
+            <div class="price">
+            <b><span class="mr-1">₹</span><span>120</span></b>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4 col-12">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5"><div class="product_img">
+            <a href="product_detail.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksq_PzuImrnjQ36OKFujLffkTxQkUffzP0g&s"
+            class="img img-fluid" alt="Dosa image"></a>
+            <div class="new_product">
+            <span class="badge py-2 px-3 badge-pill badge-danger"></span>
+            </div>
+            </div>
+            <div class="product-caption my-3">
+                <div class="product-ratting">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+               </div>
+            <h4><a href="product_detail.html">Dosa with chutney</a></h4>
+            <div class="price">
+                <b><span class="mr-1">₹</span><span>80</span></b>
+                
+          </div>
+        </div>
+      </div>
+    </div>
+             <div class="col-md-4 col-12">
+               <div class="single_product shadow text-center p-1">
+                 <div class="product_img">
+               <a href="product_detail.html"><img src="https://thumbs.dreamstime.com/b/chicken-biryani-traditional-indian-rice-dish-served-clay-pot-top-view-image-one-meal-108805407.jpg?w=360" alt="Dum-biryani"></a>
+            <div class="new_product">
+             <span class="badge py-2 px-3 badge-pill badge-danger"></span>
+        </div>
+    </div>
+             <div class="product-caption my-3">
+              <div class="product-ratting">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star low-star"></i>
+                <i class="far fa-star low-star"></i>
+        </div>
+<h4><a href="product_detail.html">Dum-biryani</a></h4><div class="price">
+<b><span class="mr-1">₹</span><span>150</span></b>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 col-12">
+<div class="single_product shadow text-center p-1">
+<div class="product_img">
+<a href="product_detail.html"><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2015/06/poori-masala-recipe-280x280.jpg" alt="poori"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger"></span>
+</div>
+</div>
+<div class="product-caption my-3">
+    <div class="product-ratting">
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star low-star"></i>
+    <i class="far fa-star low-star"></i>
+    </div>
+    <h4><a href="product_detail.html">Aloo-parata</a></h4>
+    <div class="price">
+    <b><span class="mr-1">₹</span><span>80</span></b>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4 col-12">
+    <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5"><div class="product_img">
+    <a href="product_detail.html"><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/06/semiya-upma-recipe-280x280.jpg"
+    class="img img-fluid" alt="Semya-upma"></a>
+    <div class="new_product">
+    <span class="badge py-2 px-3 badge-pill badge-danger"></span>
+    </div>
+    </div>
+    <div class="product-caption my-3">
+    <div class="product-ratting">
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star low-star"></i>
+    <i class="far fa-star low-star"></i>
+    </div>
+    <h4><a href="product_detail.html">Semya-upma </a></h4>
+    <div class="price">
+    <b><span class="mr-1">₹</span><span>90</span></b>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4 col-12">
+        <div class="single_product shadow text-center p-1">
+            <div class="product_img">
+            <a href="product_detail.html"><img src="https://www.shutterstock.com/image-photo/dahi-bhalla-called-vada-bhalle-600nw-2264547813.jpg"class="img img-fluid" alt="Curd-vada"></a>
+            <div class="new_product">
+            <span class="badge py-2 px-3 badge-pill badge-danger"></span>
+            </div>
+            </div>
+            <div class="product-caption my-3">
+            <div class="product-ratting">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star low-star"></i>
+            <i class="far fa-star low-star"></i>
+            </div>
+            <h4><a href="product_detail.html">Curd-vada </a></h4><div class="price">
+            <b><span class="mr-1">₹</span><span>90</span></b>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+            <!-- ==============products ends here============== -->
+             <!-- ==============feature starts here============== -->
+<section class="feature py-5 mt-5" id="feature">
+<div class="container">
+<div class="section_title text-center mb-5">
+<h1 class="text-capitalize">Our Features</h1>
+</div>
+<div class="row text-white">
+<div class="col-md-4 col-12 shadow p-3">
+<div class="text-center">
+<div class="mb-4">
+<i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>
+<div>
+<h3>Ai chatbot for food preferences</h3>
+<h3>Cancellation charge 100 INR</h3>
+</div>
+</div>
+<div>
+  <p>1. The platform features an AI-powered chatbot that assists users in selecting meals based on their taste preferences, dietary restrictions, and past orders, offering personalized recommendations for a better dining experience.
+   <br> <br>2.To discourage food wastage, a nominal charge of ₹100 is applied for order cancellations. This ensures customers are thoughtful when placing orders, promoting a more sustainable approach to food consumption. </p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 shadow p-3 mt-small-5 mb-small-5">
+<div class="text-center">
+<div class="mb-4">
+ <i class="fas fa-lock fa-3x mb-3 pt-2"></i>
+<div>
+<h3>Customers reviews and real time pics</h3>
+<h3>Discount offers for first users</h3>
+</div>
+</div>
+<div>
+  <p> 1. Customers can share their dining experiences with detailed reviews and upload real-time photos of their orders, helping others make informed decisions and fostering a community of trust.
+      <br><br>2.New users receive exclusive discounts on their first order, making it an attractive option to try out the service and explore a variety of cuisines at a reduced price.
+
+   </p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 shadow p-3">
+<div class="text-center">
+<div class="mb-4">
+<i class="fas fa-headphones fa-3x mb-3 pt-2"></i>
+<div>
+<h3>Feasible and reasonable</h3>
+<h3>Leftover food will be donated to the needies</h3>
+<h3>Time-sloting for food delivery</h3>
+</div>
+</div>
+<div>
+  <p>1. The system is designed to be both practical and affordable, ensuring that users receive high-quality service and value for their money without compromising on convenience or satisfaction.<br>
+     <br>2.The platform ensures that any leftover food is not wasted but instead donated to those in need, contributing to social welfare and reducing food wastage.
+ <br>3.Time-Sloting for food delivery: This system allows users to select a delivery date and see available time slots for that day </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+ <!-- ==============feature ends here============== -->
+
+    
+
+ <!-- ==============footer starts here============== -->
+<section class="footer_section pt-5 pb-2" id="footer_section">
+    <footer>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-3 col-6 pl-5 pl-small-15">
+    <div class="footer_title">
+    <a href="index.html"><img src="https://dynamic.design.com/asset/logo/efad2d11-d7d9-4fb1-bd91-528fe52b4172/logo-search-grid-1x?logoTemplateVersion=1&v=638464107922200000&text=Feasta&layout=landscapeclass="img img-fluid" width="120px" width="150px" width="150px"
+    class="img img-fluid" alt="logo"></a>
+    </div>
+    <div>
+      Fiesta is  where convenience meets culinary delight! We are a passionate trio, each bringing unique expertise to make your food experience seamless and satisfying.
+    </div>
+    </div>
+    <div class="col-md-3 col-6">
+    <div class="footer_title pt-3 mb-3">
+    <h3>Quick Links</h3>
+    </div>
+    <div class="footer_links">
+    <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="javascript:;">Offers & Discounts</a></li>
+    <li><a href="javascript:;">Get Coupon</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="col-md-3 col-6">
+        <div class="footer_title pt-3 mb-3">
+        <h3> food styles</h3>
+        </div>
+        <div class="footer_links">
+        <ul>
+        <li><a href="javascript:;">South-indian Food</a></li>
+        <li><a href="javascript:;">North-indian Food</a></li>
+        <li><a href="javascript:;">Healthy Fast food </a></li>
+        <li><a href="javascript:;">western food</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="col-md-3 col-6">
+        <div class="footer_title pt-3 mb-3">
+        <h3>Support</h3>
+        </div>
+        <div class="footer_links">
+        <ul>
+        <li><a href="javascript:;">Frequently Asked Questions</a></li>
+        <li><a href="javascript:;">Terms & Conditions</a></li>
+        <li><a href="javascript:;">Privacy Policy</a></li>
+        <li><a href="javascript:;">Report a Payment Issue</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="border-top">
+        <h6 class="text-center mt-3">Copyright ©2024 All rights reserved
+        </h6>
+        </div>
+        </footer>
+        </section>
+        <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button"><i class="fas fa-chevron-up text-dark"></i>
+        </a>
+        </div>
+        <!-- ==============footer ends here============== -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
